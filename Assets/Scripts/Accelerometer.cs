@@ -7,6 +7,7 @@ public class Accelerometer : MonoBehaviour
 
     void Update()
     {
+    
        float x = Input.acceleration.x;
        float z = Input.acceleration.z;
 
